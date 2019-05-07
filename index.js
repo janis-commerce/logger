@@ -1,5 +1,5 @@
 'use strict';
 
-const { Logger } = require('./logger');
+const { logger } = require('./logger');
 
-module.exports = Logger;
+module.exports = logger;
