@@ -1,5 +1,5 @@
 {
-  "name": "logger",
+  "name": "@janiscommerce/logger",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://juanhapes@github.com/janis-commerce/logger.git"
+    "url": "git+https://github.com/janis-commerce/logger.git"
   },
   "author": "Janis",
   "license": "ISC",
@@ -29,5 +29,8 @@
     "eslint-plugin-import": "^2.14.0",
     "mocha": "^5.2.0",
     "nyc": "^14.1.0"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
