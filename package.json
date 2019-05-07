@@ -1,0 +1,33 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "export TEST_ENV=true; mocha --exit -R nyan --recursive tests/",
+    "watch-test": "export TEST_ENV=true; mocha --exit -R nyan -w --recursive",
+    "coverage": "nyc npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://juanhapes@github.com/janis-commerce/logger.git"
+  },
+  "author": "Janis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janis-commerce/logger/issues"
+  },
+  "homepage": "https://github.com/janis-commerce/logger#readme",
+  "dependencies": {
+    "cli-color": "^1.4.0",
+    "winston": "^3.2.1",
+    "winston-transport": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "nyc": "^14.1.0"
+  }
+}
