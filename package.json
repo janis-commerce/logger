@@ -1,7 +1,7 @@
 {
   "name": "@janiscommerce/logger",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.1.0",
+  "description": "logger module allows you to leave message on console with optional data",
   "main": "index.js",
   "scripts": {
     "test": "export TEST_ENV=true; mocha --exit -R nyan --recursive tests/",
